@@ -5,13 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=innociousbliss/predict_app
+dockerpath=innociousbliss/predictapp
 
 # Step 2:  
 # Authenticate & tag
-docker tag fc887f5f62a5 innociousbliss/predict_app:firstpush
+docker tag bf2824a723e0 innociousbliss/predictapp:latest
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
-docker push innociousbliss/predict_app
+docker push innociousbliss/predictapp

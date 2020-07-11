@@ -1,5 +1,5 @@
 #Create deployment
-kubectl create deployment predict-app --image=innociousbliss/predict_app
+kubectl create deployment predictapp --image=innociousbliss/predictapp:latest
 
 #View deployments
 #kubectl get deployments
@@ -11,13 +11,13 @@ kubectl create deployment predict-app --image=innociousbliss/predict_app
 #kubectl get events
 
 #Create a service
-kubectl expose deployment predict-app --type=LoadBalancer --port=8080
+kubectl expose deployment predictapp --type=LoadBalancer --port=8080
 
 #View the service
 #kubectl get services
 
 #Run
-minikube service predict-app
+minikube service predictapp
 
 #Enable addon
 #minikube addons enable metrics-server
