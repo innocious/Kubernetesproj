@@ -12,9 +12,9 @@ docker:
 working_directory: ~/repo
 
 steps:
-- checkout
-      - run: sudo chown -R circleci:circleci /usr/local/bin
-      - run: sudo chown -R circleci:circleci /usr/local/lib/python3.8/site-packages
+- checkout:
+- run: sudo chown -R circleci:circleci /usr/local/bin
+- run: sudo chown -R circleci:circleci /usr/local/lib/python3.8/site-packages
 # Download and cache dependencies
 - restore_cache:
 keys:
