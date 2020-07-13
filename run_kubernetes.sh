@@ -27,3 +27,6 @@ minikube service predictapp
 
 #View pods
 kubectl get pods
+
+#Run on port 8000
+kubectl port-forward deployment/predictapp 8000:80
