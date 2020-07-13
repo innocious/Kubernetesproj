@@ -31,4 +31,4 @@ Great project
 
 Finally I built my **.circleci/config.yml** and uploaded to my github repo which was automatically built by circleci
 
-[![Udacity](https://circleci.com/gh/Udacity/Kubernetesproj.svg?style=svg&circle-token=49f7b1aac282d1af4ca55d0b28caef00c964b907)](https://app.circleci.com/pipelines/github/Bliss911)
+[![Bliss911](https://circleci.com/gh/Bliss911/Kubernetesproj.svg?style=svg)](https://app.circleci.com/pipelines/gh/Bliss911/Kubernetesproj)
